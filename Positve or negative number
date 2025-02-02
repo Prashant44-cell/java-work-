@@ -1,0 +1,18 @@
+import java.util.*;
+ class Solution {
+public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter a number");
+  int k = sc.nextInt();
+  sc.close();
+  // Here basic  condtion is used to check the number
+  if(k<0){
+    System.out.println("Negative number");
+  }
+  else{
+    System.out.println("Postive number");
+  }
+
+}
+  
+}
